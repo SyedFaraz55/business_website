@@ -1,0 +1,150 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+::selection {
+	background-color: #C126FF;
+	color:white;
+}
+.wrapper {
+	top: 0;
+	position: sticky;;
+}
+header {
+	background-color: #262626;
+	padding: 6px;
+}
+#brand {
+	font-weight: bold;
+}
+.navbar-brand {
+	margin-left: 20px;
+}
+.top-bar {
+	display: flex;
+}
+.social-icons {
+	 flex:2;
+	 margin-left: 50px;
+}
+.contact-links {
+	flex:1;
+}
+.contact-links li a {
+	font-size: 14px;
+}
+ul {
+	list-style: none;
+}
+li a {
+	float: left;
+	color:white;
+	text-decoration: none;
+	margin-right: 10px;	
+}
+i {
+	font-size: 14px;
+}
+.contact-links i {
+	margin-right: 8px;
+}
+
+i:hover {
+	color: coral;
+}
+
+#banner-section {
+	background-color: #C126FF;
+}
+#banner-section p {
+	text-align: left;
+}
+#about_us {
+	text-align: center;
+	margin-top: 60px;
+}
+#about_us h2 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 36px;
+}
+div.col-md-7 {
+	padding: 4rem;
+}
+#banner-section  {
+	color: white;
+}
+#button1 {
+	color:black !important;
+	background-color: white;
+	padding: 10px 16px;
+}
+#contact {
+	background-color: #C126FF;
+	color:white;
+	padding: 2rem;
+	margin-top: -60px;
+}
+#contact p {
+	text-align: center;
+	margin-top:14px;
+}
+#dp {
+	background-color: white !important;
+	padding: 14px 20px;
+	color: black !important;
+		
+	margin-top: 50px;
+}
+#dp:hover {
+	background-color: #C126FF !important;
+	border: 1px solid white;
+	color:white !important;
+	text-decoration: none;
+}
+p#dp-b {
+	margin-top: 40px;
+}
+#button2 {
+	background-color: #C126FF !important;
+	color: white !important;
+	text-decoration: none;
+	border: 1px solid white;
+	padding: 10px 16px;
+	margin-top: 10px;
+}
+#button2:hover {
+	background-color: white !important;
+	border:1px solid #C126FF;
+	color: black !important;
+}
+#service-section {
+	padding:120px 0;
+}
+.container h3 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 36px;
+}
+.card-body {
+	text-align: center;
+}
+.card-body p {
+	padding-bottom: 14px;
+}
+
+footer {
+	padding: 10px;
+	text-align: center;
+}
+footer p {
+	margin-top: 14px;
+}
+
+
+/* Media Queries */
+@media(max-width: 961px){
+	#top-header {
+		display: none;
+	}
+}
